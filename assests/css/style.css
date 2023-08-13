@@ -1,0 +1,418 @@
+.mobile-nav {
+    position: absolute;
+    display: none;
+    right: 80px;
+    top: 40px;
+    height: 50px;
+    width: 50px;
+    background: blue;
+    border-radius: 25px;
+}
+
+.mobile-nav .fa-bars {
+    font-size: 25px;
+    margin-left: 13px;
+    margin-top: 12px;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media (max-width:960px) {
+
+    .mobile-nav {
+        position: absolute;
+        display: block;
+        right: 20px;
+        top: 20px;
+        height: 50px;
+        width: 50px;
+        background: #149ddd;
+        border-radius: 25px;
+    }
+        
+
+    .mobile-nav .fa-bars {
+        font-size: 25px;
+        margin-left: 14px;
+        margin-top: 12px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    #header {
+        left: -300px;
+    }
+
+    .mobile-nav #header {
+        left: 0;
+    }
+
+}
+
+
+.header-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+}
+
+.img-profile-hero {
+    max-width: 100%;
+    height: auto;
+}
+
+.profile img {
+    display: block;
+    margin: 15px auto;
+    width: 135px;
+    border: 8px solid #2c2f3f;
+}
+
+.circle-round {
+    border-radius: 50%;
+}
+
+.profile .name {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.profile .name a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.profile .social-links a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 4px;
+    background: #212431;
+    border-radius: 50%;
+    line-height: 1.1;
+    transition: .2s ease-out;
+}
+
+.profile .social-links a:hover {
+    background: rgb(27, 110, 206);
+    transition: .2s ease-in;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.header-navbar {
+    padding-top: 30px;
+}
+
+.nav-names {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 9px;
+    text-decoration: none;
+   
+}
+
+.header-navbar .nav-names .nav-link span {
+    padding-left: 16px;
+}
+
+.nav-link {
+    padding: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #a8a9b4;
+    transition: .1s ease-out;
+}
+
+.header-navbar .nav-names .nav-link span {
+    color: #a8a9b4;
+    transition: .1s ease-out;
+}
+
+.header-navbar .nav-names a:hover {
+    color: #006eff;
+    transition: .1s ease-in;
+}
+
+.header-navbar .nav-names .nav-link span:hover {
+    color: #fff;
+    transition: .1s ease-in;
+}
+
+.main {
+    background: url("../img-main.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#hero {
+    background-attachment: fixed;
+}
+
+
+.main-title {
+    min-width: 300px;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    left: 35%;
+    top: 35%;
+}
+
+.main .main-title h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0px 0px 18px;
+    line-height: 56px;
+}
+
+.main .main-title p {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-content {
+    margin-left: 300px;
+}
+
+.about {
+    padding: 60px 0;
+    overflow: hidden;
+    height: 94vh;
+}
+
+.container {
+    height: 378px;
+    width: 100%;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+    border-bottom: 3px solid deepskyblue;
+    font-family: "Raleway", sans-serif;
+    margin-right: 95%;
+}
+
+.section-title p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.row .profile-image {
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    margin-top: 16px;
+}
+
+.row .profile-image .img-hero-2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.row .bio-data h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #173b6c;
+    font-family: "Raleway", sans-serif;
+}
+
+.row .bio-data p {
+    font-style: italic;
+    margin-top: 0;
+}
+
+.row .bio-data {
+    margin-top: 10px;
+}
+
+.row .list-inside {
+    height: 210px;
+    width: 680px;
+}
+
+
+.row .list-inside .list-details ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 2.5;
+}
+
+.fa-chevron-right {
+    color: #006eff;
+}
+
+.list-inside .list-details span {
+    margin-left: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #272829;
+}
+
+.row .bio-data .paragraph-2 {
+    margin-bottom: 0;
+    margin-top: 25px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.facts .container .specialization {
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+.facts .container .count-box {
+    width: 100%;
+    padding: 30px;
+}
+
+.facts .container .count-box i {
+    color: dodgerblue;
+    font-size: 40px;
+}
+
+.facts .container .count-box span {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.facts {
+    height: 65vh;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.skills {
+    padding: 60px 0;
+    overflow: hidden;
+    background: #f5f8fd;
+    height: 65vh;
+}
+
+.skills .container .row {
+    width: 100%;
+    height: 30%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.skills .container .row .skill-bar .progress {
+    height: 60px;
+    display: block;
+    background: none;
+}
+
+.skills .container .row .skill-bar .progress span {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.skills .container .row .skill-bar .progress .progress-wrap {
+    background: lightgray;
+    height: 13px;
+}
+
+.skills .container .row .skill-bar .progress .progress-wrap .progress-bar {
+    background-color: #149ddd;
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 13px;
+}
+
+.w-85 {
+    width: 85%!important;
+    height: 13px;
+}
+
+.w-65 {
+    width: 65%!important;
+    height: 13px;
+}
+
+.w-75 {
+    width: 75%!important;
+    height: 13px;
+}
+
+.w-80 {
+    width: 80%!important;
+    height: 13px;
+}
+
+.Resume .container .row {
+    height: auto;
+    margin: auto;
+}
+
+.Resume .container .row .resume-section h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Resume .container .row .resume-section .resume-details {
+    padding-left: 22px;
+    border-left: 1px solid #1f5297;
+}
+
+.Resume .container .row .resume-section .resume-details ul {
+    padding-left: 20px;
+}
+
+.Resume {
+    height: 130vh;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+
+.Resume .container {
+    height: auto;
+    width: 100%;
+}
+
+.Resume .container .row .resume-section .resume-details h4 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.Resume .container .row .resume-section .resume-details h5 {
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    background: lightgray;
+}
